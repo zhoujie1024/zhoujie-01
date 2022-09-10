@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+           span{
+               /* span为行内标签只加宽高无效 所以转换为块状标签*/
+               display: block;
+               width: 18px;
+               height: 24px;
+               background-color: pink;
+               background-image: url(./images/taobao.png);
+               /* 调整背景图片位置： 水平位置 垂直位置*/
+               background-position: -3px 0;
+           }
+           b {
+              /* b 为行内标签只加宽高无效 所以转换为块状标签*/
+              display: block;
+               width: 18px;
+               height: 24px;
+               background-color: pink;
+               background-image: url(./images/taobao.png);
+               /* 调整背景图片位置： 水平位置 垂直位置*/
+               background-position: 0 -90px;  
+           }
+    </style>
+</head>
+<body>
+      <!--精灵图标签都用行内标签 如：span ，b ，i  -->
+     <span>手机小图</span>
+     <b>小猪小图</b>
+</body>
+</html>

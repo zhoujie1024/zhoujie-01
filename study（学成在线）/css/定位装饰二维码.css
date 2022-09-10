@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+.nav{
+    border-top: 1px solid rgb(142, 142, 142);
+    border-bottom: 1px solid rgb(142, 142, 142);
+    height: 30px;
+
+}
+.nav ul{
+    margin-left: 250px;
+
+}
+.nav li{
+    float: left;
+    border-right: 1px solid rgb(142, 142, 142);
+}
+.nav li a{
+    
+    padding: 0 50px;
+    text-align: center;
+    line-height: 30px;
+    color: #666;
+    font-size: 14px;
+}
+.nav li:nth-child(5n){
+    border-right: none;
+}
+
+/*父相子绝*/
+.nav li .iphone{
+    position: relative;
+}
+.nav li .code{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 25px;
+
+  /* 二维码隐藏 */  
+    display: none; 
+}
+.nav li a:hover img{
+    display: block;  /*鼠标悬停在文字上显示二维码*/
+}
+
+
