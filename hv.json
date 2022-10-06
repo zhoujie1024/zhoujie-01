@@ -1,0 +1,31 @@
+{
+	"html:5": {
+		"prefix": "hv",
+		"body": [
+			"<!DOCTYPE html>",
+			"<html>",
+			"<head>",
+			"\t<meta charset=\"UTF-8\">",
+			"\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+			"\t<meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">",
+			"\t<title></title>",
+			"\t<script src=\"https://cdn.jsdelivr.net/npm/vue/dist/vue.js\"></script>",
+			"</head>",
+			"<body>",
+			"\t<div id='app'>",
+			"\t\t$0",
+			"\t</div>  ",
+			"\t<script>",
+			"\t\tnew Vue({",
+			"\t\t\tel:'#app',",
+			"\t\t\tdata:{",
+			"\t",
+			"\t\t\t}",
+			"\t\t})",
+			"\t</script>",
+			"</body>",
+			"</html>",
+		],
+		"description": "HTML5"
+	}
+}
